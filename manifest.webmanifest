@@ -9,7 +9,7 @@
 "lang": "en-US",
 "icons": [
   {
-   "src": "Assets/badges/Core/membership-award-png.png",
+   "src": "./Assets/Badges/Core/membership-award-png.png",
    "sizes": "512x512",
    "type": "image/png"
   }
