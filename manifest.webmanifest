@@ -5,15 +5,15 @@
 "theme_color": "#fff",
 "short_name": "Badges",
 "name": "Scout Badges",
-"description": "View Scout Badges",
+"description": "Web, Developer And Technology Advocate",
 "lang": "en-US",
 "icons": [
   {
-   "src": "./Assets/Badges/Core/membership-award-png.png",
+   "src": "Assets/Badges/Core/membership-award-png.png",
    "sizes": "512x512",
    "type": "image/png"
   }
 ],
-"start_url": "/index.html",
+"start_url": "index.html",
 "scope": "/"
 }
