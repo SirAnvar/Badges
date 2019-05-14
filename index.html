@@ -34,7 +34,7 @@
     <script>
       if ('serviceWorker' in navigator){
         window.addEventListener('load', function() {
-           navigator.serviceWorker.register('./JS/sw.js')
+           navigator.serviceWorker.register('./sw.js')
         .then(function() { console.log('[ PWA Fire Bundle ] Service Worker Registered'); });
        });
      }
