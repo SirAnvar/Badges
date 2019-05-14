@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    background: #FFFFFF;
+}
+
+.nav {
+    background-color: #00a794;
+
+    width: 100vw;
+    height: 8vh;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+.back-arrow {
+    margin-left: 5vw;  
+    
+    width: 10vw;
+    height: 5vh;
+}
+
+.fa-chevron-left {
+    color: #FFFFFF;
+    font-size: 5vh;
+}
+
+.page-name {
+    text-align: center;
+    font-size: 5vh;
+
+    margin-left: 10vw;
+    width: 50vw;
+
+    color: #FFFFFF;
+}
+
+.badge-type {
+
+    background-color: #ffffff;
+    width: 100vw;
+    height: auto;
+}
+
+.badge-list-1 {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    widows: 100%;
+    
+}
+
+
+.badge-list-item {
+    width: 100%;
+    height: 15vh;
+
+    border-bottom: 1px solid rgba(0,0,0,20%);
+}
+
+.badge-list-link {
+    
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 3vh;
+    color: black;
+
+    width: 100vw;
+    height: 15vh;
+
+    display: table-cell;
+}
+
+.icon {
+    position: absolute;
+    margin-top: 2.5vh;
+    padding-left: 3%;
+
+    max-width: 10vh;
+    height: 10vh;
+}

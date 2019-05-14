@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    background: #FFFFFF;
+}
+
+.header {
+    display: block;
+    width: 100vw;
+    height: 25vh;
+
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.logo {
+    margin-left: 25vw;
+    margin-top: 3vh;
+    max-width: 50vw;
+    height: auto;
+}
+
+.main-wrapper {
+    margin-left: 10vw;
+    width: 80vw;
+}
+
+.sec-list {
+    margin: 0;
+    margin-top: 7vh;
+    padding: 0;
+    list-style: none;
+}
+
+.sec-item {
+    font-size: 5vh;
+    text-align: center;
+    background-color: #7413dc ;
+
+    margin-top: 3vh;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    border: 3px solid  #7413dc;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
