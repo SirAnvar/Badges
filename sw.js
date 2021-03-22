@@ -2,6 +2,7 @@ var cacheName = 'badge-pwa';
 var filesToCache = [
     '/',
     '/index.html',
+    '/Pages/Scouts/scouts.html',
     '/CSS/style.css',
     'JS/main.js'
 ];
