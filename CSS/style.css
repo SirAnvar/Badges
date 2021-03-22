@@ -8,20 +8,19 @@ body {
 }
 
 .header {
-    display: block;
-    width: 100vw;
+    width: 50vw;
     height: 25vh;
 
-    margin: 0;
-    padding: 0;
-    background-color: #ffffff;
+    margin-left: 25vw;
+    margin-top: 5vh;
+
+    display: flex;
+    justify-content: center;
 }
 
 .logo {
-    margin-left: 25vw;
-    margin-top: 3vh;
-    max-width: 50vw;
-    height: auto;
+    width: 25vh;
+    height: 25vh;
 }
 
 .main-wrapper {
@@ -31,7 +30,7 @@ body {
 
 .sec-list {
     margin: 0;
-    margin-top: 7vh;
+    margin-top: 5vh;
     padding: 0;
     list-style: none;
 }
@@ -41,14 +40,33 @@ body {
     text-align: center;
     background-color: #7413dc ;
 
-    margin-top: 3vh;
+    margin-top: 2.5vh;
     padding-top: 3%;
     padding-bottom: 3%;
 
-    border: 3px solid  #7413dc;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 100%;
     
+}
+
+#BeaversButton:hover {
+    background-color: red;
+}
+
+#CubsButton:hover {
+    background-color: red;
+}
+
+#ScoutsButton:hover {
+    background-color: red;
+}
+
+#ExplorersButton:hover {
+    background-color: red;
+}
+
+#NetworkButton:hover {
+    background-color: red;
 }
 
 
